@@ -32,6 +32,8 @@ do
 This will add the contents of the repository and the changes that have been made to a new folder. Now you can start coding and making changes.
 
     git add file.name
+    git commit -m "first commit"
+    git push
 
 ## Octocat Picture
 Important. No git talk without Octocat.
