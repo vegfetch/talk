@@ -14,6 +14,7 @@ A version control (or revision control or source control) is a means to organize
 ## Jargon
 ### Branch
 ### Merging
+Bild: Branch mit Merge
 # Available Systems
 - TFS
 - BitKeeper
@@ -24,10 +25,11 @@ A version control (or revision control or source control) is a means to organize
 
 # History of Version Control
 # Latest Gossip
-# Live Example: How do I git?
+# Example: git
 ## What is git?
 Git is a command line interface application. It was created by Linus Thorvalds in 2005 as an open source replacement for BitKeeper.
 ## Let's get started
+# Hands-on hacking
 Install git, depending on your OS and shell preferences.
 Create a new repo on github.
 Click the "clone or download" link, copy the url.
