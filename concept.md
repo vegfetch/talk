@@ -44,8 +44,6 @@ This will add the contents of the repository and the changes that have been made
     git commit -m "first commit"
     git push
 
-## Octocat Picture
-Important. No git talk without Octocat.
 # Sources
 https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
 https://en.wikipedia.org/wiki/Version_control
