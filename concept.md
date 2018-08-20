@@ -18,12 +18,11 @@ Bild: Branch mit Merge
 # Available Systems
 - TFS
 - BitKeeper
-- BitBucket
 - Git
 - Mercurial
 - Subversion
 
-# History of Version Control
+
 # Latest Gossip
 # Example: git
 ## What is git?
