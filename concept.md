@@ -12,15 +12,24 @@ A version control (or revision control or source control) is a means to organize
 
 ## Description
 ## Jargon
+### Repository
+### Pull
+### Push
 ### Branch
+#### Trunk \/ Master
+
 ### Merging
+#### Diff
+
 Bild: Branch mit Merge
 # Available Systems
 - TFS
+Microsoft's Team Foundation Server. A software development suite, includes source control.
 - BitKeeper
-- Git
+Built as a commercial source control system, is now available as Open Source. Used to host the Linux Kernel before Git.
 - Mercurial
 - Subversion
+- Git
 
 
 # Latest Gossip
