@@ -10,18 +10,33 @@ A version control (or revision control or source control) is a means to organize
 - Your code is saved often
 - \+1 on your Joel Test score ;)
 
-## Description
-## Jargon
+# Jargon
+In your career, as you cooperate with other developers, you are going to come across these terms.
 ### Repository
-### Pull
-### Push
-### Branch
-#### Trunk \/ Master
-
+The location where a project's data is stored, usually on one or more servers.
+### Revision or Version
+A single change in a file, usually with a timestamp of when the change happened.
+### Clone
+To download all the files and their revisions from a repository into a newly created repository.
+### Commit or Check-In
+To add the changes you made to your code repository.
+### Push/Pull
+To copy all the changes in one repository to another. Use this to synchronize your files with the files on the server.
+### Branch or Fork
+A copy of the files in a repository. Different branches can be changed independently from each other. Even completely new software can evolve from a branch of an existing project.
+#### Trunk or Master
+The main branch of a project. This is usually the first branch in a newly created repository.
+#### Feature Branch
+Before you work on a new aspect of your program, you create a new branch. Then, when you are done, you integrate the changes you made into the master branch. This is called merging.
 ### Merging
-#### Diff
+When several developers make changes to the same file, these changes can overlap.
+### Switch
+If you copy all the contents from one branch to another, it's called a switch. For example, a company might develop their software on a dev branch. Once it's finished, they switch to a testing branch, and once it's tested and bug-free they switch to a release branch.
+### Working Copy
+The set of data on your local machine that is copied from a repository and that you work on.
+### Diff
+A tool to compare different versions of a file. Diff marks additions in green and subtractions in red, so you can see what has changed in the file.
 
-Bild: Branch mit Merge
 # Available Systems
 - TFS
 Microsoft's Team Foundation Server. A software development suite, includes source control.
