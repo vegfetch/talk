@@ -28,8 +28,8 @@ A copy of the files in a repository. Different branches can be changed independe
 The main branch of a project. This is usually the first branch in a newly created repository.
 #### Feature Branch
 Before you work on a new aspect of your program, you create a new branch. Then, when you are done, you integrate the changes you made into the master branch. This is called merging.
-### Merging
-When several developers make changes to the same file, these changes can overlap.
+### Merge or Integration
+When several developers make changes to the same file, these changes can overlap. The second developer to update a file then has to merge his or her changes into the file. Most of the time, merging can be done automatically, but if the changes overlap, you might have to sort in the code changes by hand.
 ### Switch
 If you copy all the contents from one branch to another, it's called a switch. For example, a company might develop their software on a dev branch. Once it's finished, they switch to a testing branch, and once it's tested and bug-free they switch to a release branch.
 ### Working Copy
