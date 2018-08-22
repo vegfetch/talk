@@ -12,13 +12,16 @@ Whenever you use the Undo button in your favourite text processing software, you
 
 # No, seriously. Why should I use Source Control?
 - You see what others have changed
+When someone contributes input to the project, it's carefully recorded and documented. This means that the project manager and the teammates can stay up to date with their peers' work.
 You don't have the time to interview all your teammates on all their coding activity every day. You will lose track of changes and additions!
 - You can roll back mistakes
 Your own or your teammates' mistakes ;)
 - Your code is saved often
 At least once a day, when you check in, your code is copied to the SCM server. This is an easy and basic backup. Remember: each hard drive is going to fail eventually!
+-It is easy to share project files
+A new developer on the team can set up their IDE, copy the files from the repository and start working.
 - \+1 on your Joel Test score
-The Joel Test is a quick quality test for development teams. It was invented by Joel Spolsky, the CEO of Stack Overflow. I'll link to it at the end of the talk.
+The Joel Test is a quick quality test for development teams. It was invented by Joel Spolsky, the CEO of Stack Overflow. The first question in the test is whether you use source control. I'll link to it at the end of the talk.
 
 # Jargon
 In your career, as you cooperate with other developers, you are going to come across these terms. I'll explain some of the basic concepts of the SCM business.
@@ -48,7 +51,7 @@ The set of data on your local machine that is copied from a repository and that 
 A tool to compare different versions of a file. Diff marks additions in green and subtractions in red, so you can see what has changed in the file.
 
 # Story Time
-Once upon a time, a young geek set out to create his own GNU operating system...
+Once upon a time, a young geek set out to create a free operating system...
 
 # Available Systems
 - TFS
