@@ -1,8 +1,15 @@
 # Version Control Systems
 ### or: How do I git?
 
+# Table of Contents
+
 # What is a Version Control System?
-A version control (or revision control or source control) management tool or SCM is a means to organize the production of large bodies of text. This can include for example program code, legal documents or a company's technical documentation. Version Control offers several features like restoration of previous versions, collaboration of several authors, or tracking of changes.
+A version control is also known as a revision control or source control management tool or SCM. It is a means to organize the production and modification of large bodies of text. Version Control offers several features like tracking of changes, collaboration of several authors, or restoration of previous versions.
+
+# Uses for SCM tools
+What can you make using a source code management tool? You can for example write program code, legal documents or a company's technical documentation.
+
+# What does this mean for me as a software developer?
 
 # The Bad News: You must use SCM
 If you collaborate with other developers, you absolutely must use an SCM tool. You would have to be a genius to organize a collaborative coding team without any kind of version control management.
