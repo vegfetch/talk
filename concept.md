@@ -43,15 +43,14 @@ The main branch of a project. This is usually the first branch in a newly create
 Before you work on a new aspect of your program, you create a new branch. Then, when you are done, you integrate the changes you made into the master branch. This is called merging.
 ### Merge or Integration
 When several developers make changes to the same file, these changes can overlap. The second developer to update a file then has to merge his or her changes into the file. Most of the time, merging can be done automatically, but if the changes overlap, you might have to sort in the code changes by hand.
+A merge can also happen if development on a feature branch is complete and the results are added back to the main project.
 ### Switch
-If you copy all the contents from one branch to another, it's called a switch. For example, a company might develop their software on a dev branch. Once it's finished, they switch to a testing branch, and once it's tested and bug-free they switch to a release branch.
-### Working Copy
-The set of data on your local machine that is copied from a repository and that you work on.
-### Diff
-A tool to compare different versions of a file. Diff marks additions in green and subtractions in red, so you can see what has changed in the file.
+If you copy all the contents from one branch to another, it's called a switch.
+### Tag
+When a new feature has been merged, you can put a tag on the current version. It can be a version number, milestone name, or simply the name of the feature.
 
-# Story Time
-Once upon a time, a young geek set out to create a free operating system...
+# Branching Strategy Example: Testing
+For example, a company might develop their software on a dev branch. Once the desired features are finished, they switch to a testing branch. On the testing branch, they only fix bugs. They don't add new functionality. Once the testing version is stable and bug-free, they switch to a release branch. Should a customer note a critical bug that has to be fixed to work with the software, they might decide to do a hotfix.
 
 # Available Systems
 - TFS
