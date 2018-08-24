@@ -30,6 +30,8 @@ A new developer on the team can set up their IDE, copy the files from the reposi
 - \+1 on your Joel Test score
 The Joel Test is a quick quality test for development teams. It was invented by Joel Spolsky, the CEO of Stack Overflow. The first question in the test is whether you use source control. I'll link to it at the end of the talk.
 
+# Interactive Example
+
 # Jargon
 In your career, as you cooperate with other developers, you are going to come across these terms. I'll explain some of the basic concepts of the SCM business.
 ### Repository
@@ -58,42 +60,6 @@ When a new feature has been merged, you can put a tag on the current version. It
 
 # Branching Strategy Example: Testing
 For example, a company might develop their software on a dev branch. Once the desired features are finished, they switch to a testing branch. On the testing branch, they only fix bugs. They don't add new functionality. Once the testing version is stable and bug-free, they switch to a release branch. Should a customer note a critical bug that has to be fixed to work with the software, they might decide to do a hotfix.
-
-# Available Systems
-- TFS
-Microsoft's Team Foundation Server. A software development suite, includes SCM tools.
-- BitKeeper
-Built as a commercial source control system, is now available as Open Source. Used to host the Linux Kernel before Git.
-- Git
-Git is a command line interface SCM application. It was created by Linus Thorvalds in 2005 as an open source replacement for BitKeeper.
-- Mercurial
-Git's twin brother, started about the same time as Git, when BitKeeper went Closed Source.
-- Subversion, CVS, Monotone, ...
-There are many options.
-
-
-
-
-
-# Example: Git
-## What is Git?
-
-## Let's get started
-# Hands-on hacking
-Install git, depending on your OS and shell preferences.
-Create a new repo on github.
-Click the "clone or download" link, copy the url.
-Open your shell.
-Navigate to the parent folder in which you want your project folder to be.
-do
-
-    git clone https://github.com/username/repo.git
-
-This will add the contents of the repository and the changes that have been made to a new folder. Now you can start coding and making changes.
-
-    git add file.name
-    git commit -m "first commit"
-    git push
 
 # Sources
 www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
